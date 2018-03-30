@@ -31,13 +31,11 @@ function prependKitten(name6){
 }
 
 function removeFirstKitten(){
-  var newKittens = kittens.slice(1)
-  return newKittens
+  return kittens.slice(1)
 }
 
 function removeLastKitten(){
-  var newKittens = kittens.slice(0,array.length-1)
-  return newKittens
+  return kittens.slice(0,kittens.length-1)
 }
 
 
